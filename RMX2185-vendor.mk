@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so
+PRODUCT_COPY_FILES += \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
 
 PRODUCT_PACKAGES += \
     EngineerMode \
